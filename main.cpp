@@ -48,13 +48,15 @@ void DrawBoard( Table table )
 //Main function!
 int main()
 {
+  SetConsoleTitle(TEXT(" Quantum Works Tic Tac Toe "))//Console Title!
+  
   Table table;
   
   while ( true )
   {
     DrawBoard();
     
-    cout << "player 1's turn" << endl;
+    MessageBox(NULL, L" player 1's turn ", NULL, NULL); // Popupwindow
     
     //continue...
   }
