@@ -1,4 +1,6 @@
 #include <iostream>
+#include "stdafx.h"// so its used in Visual Studio
+#include <windows.h>
 #include <string>// just in case!
 using namespace std;
 
@@ -49,6 +51,27 @@ void DrawBoard( Table table )
 int main()
 {
   SetConsoleTitle(TEXT(" Quantum Works Tic Tac Toe "))//Console Title!
+  
+  SetConsoleTitle(TEXT(" Quantum Works ")); // Logo
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << endl;
+	cout << "\n\t\t\t  ______________________";
+	cout << "\n\t\t\t | By Team\t|";
+	cout << "\n\t\t\t | \t\t\t|";
+	cout << "\n\t\t\t | Quantum Works\t\|";
+	cout << "\n\t\t\t | \t\t\t|";
+	cout << "\n\t\t\t | All Rights Reserved\t|";
+	cout << "\n\t\t\t |______________________|";
+	cout << "\n\t\t\t\t";
+
+	system("color 90");
+	Sleep(2000);
+
+	system("cls");
+	//Logo end
   
   Table table;
   
