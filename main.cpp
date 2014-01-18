@@ -1,8 +1,10 @@
 #include <iostream>
-
+#include <string>// just in case!
 using namespace std;
 
 
+
+//Add more comments so we can see what u did!
 class Table
 {
 private:
@@ -28,7 +30,7 @@ public:
   }
 };
 
-
+// Draw the bord!
 void DrawBoard( Table table )
 {
   for ( int r = 0; r < 3; ++r )
@@ -43,6 +45,7 @@ void DrawBoard( Table table )
 }
 
 
+//Main function!
 int main()
 {
   Table table;
